@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Muhammad Suleman: online sales and marketplace manager for Amazon, Daraz and Shopify, based in Karachi, Pakistan.">
+<meta name="theme-color" content="#070b14">
+<title>Muhammad Suleman – Online Sales &amp; Marketplace Manager</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:dark;--bg:#070b14;--surface:#0f1626;--ink:#f2f5fc;--text:#b9c3da;--muted:#8592ae;
+  --blue:#7ea2ff;--accent:#f5b82e;--accent-ink:#0a1f44;--line:#1f2a42;
+  --hero:#070b14;--hero-text:#fff;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0b1220;--surface:#131c30;--ink:#eef2fb;--text:#c5cee2;--muted:#8d99b5;
+  --blue:#7ea2ff;--line:#243049;--hero:#060b16}}
+:root[data-theme="dark"]{--bg:#0b1220;--surface:#131c30;--ink:#eef2fb;--text:#c5cee2;--muted:#8d99b5;--blue:#7ea2ff;--line:#243049;--hero:#060b16}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--text);font:17px/1.65 "Instrument Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Segoe UI",sans-serif;color:var(--ink);line-height:1.05}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font-family:"Bricolage Grotesque",sans-serif;color:var(--ink);font-size:19px}
+nav div{display:flex;gap:22px;font-size:15px;font-weight:500}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--ink)}
+.hero{background:var(--hero);color:var(--hero-text);padding:84px 0 96px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center}
+.hero h1{color:var(--hero-text);font-size:clamp(46px,8vw,92px);font-weight:800;letter-spacing:-.03em}
+.hero p{margin:22px 0 30px;max-width:46ch;font-size:19px;color:#c9d3ec}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:600;text-decoration:none;background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid #ffffff55}
+.btn:hover{filter:brightness(1.08)}
+.stack{position:relative;height:340px}
+.tile{position:absolute;width:78%;padding:18px 20px;border-radius:18px;background:#fff;color:#0a1f44;box-shadow:0 18px 40px #0006;animation:land .7s cubic-bezier(.2,.8,.2,1) both}
+.tile small{display:flex;align-items:center;gap:8px;color:#4f5c7a;font-size:13px}
+.tile small i{width:9px;height:9px;border-radius:50%;background:#1fb26b}
+.tile strong{display:block;font:800 24px "Bricolage Grotesque",sans-serif;margin-top:4px}
+.tile span{font-size:14px;color:#4f5c7a}
+.tile{display:flex;gap:14px;align-items:center}.tile>div{min-width:0}.tile small{margin:0}
+.mk{flex:none;width:52px;height:52px;border-radius:14px}
+.plat{display:flex;flex-direction:column;gap:14px;border-top:0!important;padding:28px}
+.plat .mk{width:64px;height:64px}.plat b{font:800 28px 'Bricolage Grotesque',sans-serif;color:var(--ink)}
+.plat.a{background:#232f3e;color:#d5dcea}.plat.a b{color:#fff}.plat.a h3{color:#ff9900}
+.plat.d{background:#f85606;color:#fff}.plat.d b,.plat.d h3{color:#fff}
+.plat.s{background:#95bf47;color:#0e2000}.plat.s b,.plat.s h3{color:#0e2000}
+.plat h3{font-size:17px;font-weight:600}
+.t1{top:0;left:0;transform:rotate(-4deg)}
+.t2{top:100px;right:0;transform:rotate(3deg);animation-delay:.15s;background:var(--accent)}
+.t3{top:215px;left:6%;transform:rotate(-1.5deg);animation-delay:.3s}
+@keyframes land{from{opacity:0;translate:0 40px}to{opacity:1;translate:0 0}}
+section{padding:80px 0}
+h2{font-size:clamp(32px,5vw,48px);font-weight:800;letter-spacing:-.02em;margin-bottom:12px}
+.lede{max-width:56ch;color:var(--muted);margin-bottom:36px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px}
+.card h3{font-size:24px;margin-bottom:8px}
+.card:nth-child(2){border-top:4px solid var(--accent)}
+.card:nth-child(1){border-top:4px solid var(--blue)}
+.card:nth-child(3){border-top:4px solid var(--ink)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chips li{list-style:none;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:500;font-size:15px}
+.contact{background:var(--hero);color:#fff;border-radius:24px;padding:56px 40px;text-align:center}
+.contact h2{color:#fff}.contact p{color:#c9d3ec;margin-bottom:28px}
+.links{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px;font-size:15px}
+.links a{color:#c9d3ec}
+footer{padding:30px 0 40px;text-align:center;font-size:14px;color:var(--muted)}
+@media(max-width:760px){
+  .hero .wrap,.about,.cols{grid-template-columns:1fr}
+  .hero{padding:56px 0 64px}.stack{height:320px}
+  nav div a:not(:last-child){display:none}
+  section{padding:56px 0}.contact{padding:40px 22px}
+}
+.hero{background:radial-gradient(60% 80% at 85% 5%,#1b3fa88c,transparent 60%),radial-gradient(40% 50% at 5% 95%,#f5b82e26,transparent 60%),var(--hero)}
+.hero h1{background:linear-gradient(90deg,#fff 30%,#9db8ff 70%,#f5b82e);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tile{background:#121b30d9;color:#fff;border:1px solid #ffffff26;backdrop-filter:blur(10px)}
+.tile strong{color:#fff}.tile small,.tile span{color:#a9b6d6}
+.t2{background:var(--accent)}.t2 strong{color:#0a1f44}.t2 small,.t2 span{color:#3a3320}
+.card{background:linear-gradient(160deg,#ffffff0f,#ffffff03);backdrop-filter:blur(8px)}
+.plat.a{background:linear-gradient(160deg,#232f3e,#0e141d);border:1px solid #ff990066}
+.plat.d{background:linear-gradient(160deg,#f85606,#8f2e00);border:1px solid #ff8a55}
+.plat.s{background:linear-gradient(160deg,#2c4513,#101a07);border:1px solid #95bf4766;color:#c9dfa0}
+.plat.s b,.plat.s h3{color:#d7f0a8}
+.btn{box-shadow:0 0 32px #f5b82e4d}.btn.ghost{box-shadow:none;background:#ffffff0f}
+.chips li{background:#ffffff0a}
+.contact{background:radial-gradient(70% 120% at 50% 0%,#1b3fa8,transparent 70%),#0b1428;border:1px solid #ffffff1f}
+.ill{display:block;width:100%;height:auto;margin:0 0 16px -18px;max-width:calc(100% + 18px);border-radius:12px;background:linear-gradient(160deg,#ffffff12,#ffffff04);border:1px solid var(--line)}
+.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.steps li{padding:4px 0 0 18px;border-left:2px solid var(--line)}
+.steps li:hover{border-left-color:var(--accent)}
+.steps b{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:14px;margin-bottom:10px}
+.steps h3{font-size:22px;margin-bottom:6px}.steps p{font-size:15px;color:var(--muted)}
+::selection{background:var(--accent);color:#0a1f44}
+html{scrollbar-color:#2a3858 var(--bg)}
+footer{border-top:1px solid var(--line)}footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}footer a{color:var(--muted)}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.tile{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body id="top">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="amz" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#232f3e"/><text x="32" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="34" fill="#fff">a</text><path d="M14 44q18 11 36 0" stroke="#ff9900" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M46 38l5 5-7 2" stroke="#ff9900" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="dzr" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#f85606"/><text x="32" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="38" fill="#fff">d</text><circle cx="47" cy="18" r="4" fill="#fff"/></symbol>
+<symbol id="shp" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#95bf47"/><path d="M18 25h28l-2.5 23h-23z" fill="#fff"/><path d="M25 25c0-10 14-10 14 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/><text x="32" y="43" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="18" fill="#5e8e3e">S</text></symbol>
+</defs></svg>
+<nav><div class="wrap"><b>M. Suleman</b><div><a href="#platforms">Platforms</a><a href="#work">What I do</a><a href="#about">About</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <h1>Muhammad Suleman</h1>
+    <p>I help brands sell more online. Marketplace management, store operations and digital marketing across Amazon, Shopify and Daraz, from Karachi.</p>
+    <div class="btns"><a class="btn" href="#contact">Work with me</a><a class="btn ghost" href="#work">See what I do</a></div>
+  </div>
+  <div class="stack" aria-hidden="true">
+    <div class="tile t1"><svg class="mk"><use href="#amz"/></svg><div><small><i></i>Listing live</small><strong>Amazon</strong><span>Catalog, orders, reviews</span></div></div>
+    <div class="tile t2"><svg class="mk"><use href="#dzr"/></svg><div><small><i></i>Store online</small><strong>Daraz</strong><span>Campaigns and fulfilment</span></div></div>
+    <div class="tile t3"><svg class="mk"><use href="#shp"/></svg><div><small><i></i>Checkout open</small><strong>Shopify</strong><span>Store setup and growth</span></div></div>
+  </div>
+</div></header>
+
+<section id="platforms"><div class="wrap">
+  <h2>Platforms I work on</h2>
+  <p class="lede">Teen bade online sales channels, aik hi jagah se manage.</p>
+  <div class="cols">
+    <div class="card plat a"><svg class="mk"><use href="#amz"/></svg><b>Amazon</b><h3>Listings, orders and account health</h3></div>
+    <div class="card plat d"><svg class="mk"><use href="#dzr"/></svg><b>Daraz</b><h3>Campaigns, pricing and fulfilment</h3></div>
+    <div class="card plat s"><svg class="mk"><use href="#shp"/></svg><b>Shopify</b><h3>Store setup, design and growth</h3></div>
+  </div>
+</div></section>
+
+<section id="work" style="padding-top:0"><div class="wrap">
+  <h2>What I do</h2>
+  <p class="lede">Selling online takes more than uploading products. I run the whole loop, from listing to the customer’s reply.</p>
+  <div class="cols">
+    <div class="card"><h3>Marketplace management</h3><p>Product listings, pricing, orders and account health on Amazon and Daraz, kept running smoothly day to day.</p></div>
+    <div class="card"><h3>Online sales &amp; marketing</h3><p>Digital campaigns and store optimisation on Shopify that turn browsers into buyers.</p></div>
+    <div class="card"><h3>Customer relationships</h3><p>Fast, clear support and follow-up that earns repeat orders and better reviews.</p></div>
+  </div>
+</div></section>
+
+<section id="process" style="padding-top:0"><div class="wrap">
+  <h2>How I work</h2>
+  <p class="lede">Har store ke liye aik simple, saaf process.</p>
+  <ol class="steps">
+    <li><svg class="ill" viewBox="0 0 200 120" role="img" aria-label="Product box with price tag"><rect x="62" y="36" width="58" height="50" rx="6" fill="var(--blue)"/><path d="M62 50h58" stroke="#fff" stroke-opacity=".45" stroke-width="3"/><rect x="116" y="26" width="52" height="28" rx="6" fill="var(--accent)"/><text x="142" y="45" text-anchor="middle" font-size="15" font-weight="800" fill="#0a1f44" font-family="Arial,sans-serif">Rs</text><rect x="26" y="62" width="28" height="24" rx="5" fill="none" stroke="var(--muted)" stroke-width="3"/><circle cx="40" cy="74" r="5" fill="var(--muted)"/></svg><b>1</b><h3>Set up</h3><p>Listings, photos and pricing created or cleaned up.</p></li>
+    <li><svg class="ill" viewBox="0 0 200 120" role="img" aria-label="Store page going live"><rect x="30" y="20" width="140" height="82" rx="9" fill="none" stroke="var(--muted)" stroke-width="3"/><path d="M30 40h140" stroke="var(--muted)" stroke-width="3"/><circle cx="44" cy="30" r="4" fill="#1fb26b"/><text x="54" y="34" font-size="11" font-weight="700" fill="#1fb26b" font-family="Arial,sans-serif">Live</text><path d="M100 90V58M86 70l14-14 14 14" stroke="var(--accent)" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><b>2</b><h3>Launch</h3><p>Products go live on Amazon, Daraz or Shopify.</p></li>
+    <li><svg class="ill" viewBox="0 0 200 120" role="img" aria-label="Sales chart going up"><rect x="34" y="72" width="24" height="30" rx="4" fill="var(--blue)"/><rect x="68" y="58" width="24" height="44" rx="4" fill="var(--blue)"/><rect x="102" y="44" width="24" height="58" rx="4" fill="var(--blue)"/><rect x="136" y="26" width="24" height="76" rx="4" fill="var(--accent)"/><path d="M34 60L80 44l34-14 40-12" stroke="var(--ink)" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="2 7"/></svg><b>3</b><h3>Promote</h3><p>Campaigns run, and I track what actually sells.</p></li>
+    <li><svg class="ill" viewBox="0 0 200 120" role="img" aria-label="Customer chat with star rating"><rect x="28" y="24" width="88" height="38" rx="12" fill="var(--blue)"/><path d="M44 62v12l14-12" fill="var(--blue)"/><rect x="84" y="68" width="88" height="32" rx="12" fill="var(--accent)"/><path d="M156 100v10l-12-10" fill="var(--accent)"/><path d="M148 34l4 9 10 1-7.5 6.500 2.500 9.500-9-5.500-9 5.500 2.500-9.500-7.500-6.500 10-1z" fill="var(--accent)"/></svg><b>4</b><h3>Support</h3><p>Customers get quick replies and issues get fixed.</p></li>
+  </ol>
+</div></section>
+
+<section id="about" style="padding-top:0"><div class="wrap about">
+  <div>
+    <h2>About</h2>
+    <p>I work at the point where retail operations meet online selling. My focus is simple: keep stores running well, keep customers happy, and keep sales moving on every platform I manage.</p>
+  </div>
+  <div>
+    <h2 style="font-size:28px">Skills</h2>
+    <ul class="chips" style="padding:0">
+      <li>Online sales</li><li>Marketplace management</li><li>Amazon</li><li>Shopify</li><li>Daraz</li><li>Digital marketing</li><li>Customer relationship management</li><li>Retail operations</li><li>Business operations</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="contact" style="padding-top:0"><div class="wrap"><div class="contact">
+  <h2>Let’s grow your online sales</h2>
+  <p>Tell me what you sell and where. I’ll reply with how I can help.</p>
+  <div class="btns" style="justify-content:center"><a class="btn" href="mailto:Salmanbuneri0@gmail.com">Email me</a><a class="btn ghost" href="https://wa.me/923162469569" rel="noopener">WhatsApp</a></div>
+  <div class="links">
+    <a href="tel:+923162469569">+92 316 2469569</a>
+    <a href="https://linkedin.com/in/salmankhan" rel="noopener">LinkedIn</a>
+    <span>Karachi, Pakistan</span>
+  </div>
+</div></div></section>
+
+<footer><div class="wrap"><div>© 2026 Muhammad Suleman · Karachi, Pakistan</div><a href="#top">Back to top</a></div></footer>
+</body>
+</html>
